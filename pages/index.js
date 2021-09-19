@@ -9,7 +9,7 @@ function Homepage(props) {
       <title>Meat apps</title>
       <meta name="description" content='Browse history of your meetups with friend using react' /> 
     </Head>
-    <MeetupList meetups={props.meetups} />;
+    <MeetupList meetups={props.meetups} />
   </Fragment>
 }
 
